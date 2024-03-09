@@ -1,3 +1,4 @@
+import Feed from "@/Components/Feed";
 
 
 export default function Home() {
@@ -11,6 +12,8 @@ export default function Home() {
 
       </h1>
       <p className="desc text-center">Prompt Genertor is an open-source A.I prompting tool for modern world to discover , create and share creative prompts. </p>
+
+      <Feed />
     </section>
   );
 

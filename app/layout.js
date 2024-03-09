@@ -1,4 +1,4 @@
-
+import Nav from "@/Components/Nav"
 import "./globals.css";
 
 
@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
         </div>
 
         <main className="app">
+          <Nav />
           {children}
 
         </main>
